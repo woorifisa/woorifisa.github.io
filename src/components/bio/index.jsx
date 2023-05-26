@@ -80,10 +80,6 @@ const bioQuery = graphql`
         introduction
         social {
           github
-          medium
-          facebook
-          linkedin
-          instagram
         }
       }
     }

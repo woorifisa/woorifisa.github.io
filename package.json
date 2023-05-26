@@ -3,9 +3,9 @@
   "private": true,
   "description": "MoneyPaper's github blog",
   "version": "0.1.0",
-  "author": "Jbee[JaeYeopHan]<ljyhanll@gmail.com>",
+  "author": "fancy[junyongmoon]<fancy.junyongmoon@gmail.com>",
   "bugs": {
-    "url": "https:/moneypapers.github.io/"
+    "url": "https://moneypapers.github.io/"
   },
   "dependencies": {
     "gatsby": "^2.2.8",

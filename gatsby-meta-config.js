@@ -3,13 +3,9 @@ module.exports = {
   description: `Blog posted about ...`,
   author: `purin`,
   introduction: `우리 FISA 네트워킹 모임`,
-  siteUrl: `https:/moneypapers.github.io/`, // Your blog site url
+  siteUrl: `https://moneypapers.github.io/`, // Your blog site url
   social: {
-    github: `https://github.com/moneypapers`, // Your GitHub account
-    medium: ``, // Your Medium account
-    facebook: ``, // Your Facebook account
-    linkedin: ``, // Your LinkedIn account
-    instagram: ``, // Your Instagram account
+    github: `moneypapers/`, // Your GitHub account
   },
   icon: `content/assets/felog.png`, // Add your favicon
   keywords: [`blog`],

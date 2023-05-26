@@ -3,7 +3,7 @@ module.exports = {
   description: `Blog posted about ...`,
   author: `purin`,
   introduction: `우리 FISA 네트워킹 모임`,
-  siteUrl: `https://github.com/moneypapers.github.io/`, // Your blog site url
+  siteUrl: `https:/moneypapers.github.io/`, // Your blog site url
   social: {
     github: `https://github.com/moneypapers`, // Your GitHub account
     medium: ``, // Your Medium account

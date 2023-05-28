@@ -1,0 +1,26 @@
+on:
+  push:
+    branches:
+      - develop
+name: build gatsby
+jobs:
+  build_gatsby:
+    name: build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '14.15.0'
+
+      - name: Install dependencies
+        run: yarn install
+
+      - name: Build
+        run: yarn build
+
+      - uses: peaceiris/actions-gh-pages@v2
+        env:
+          GITHUB_TOKEN: ${{ secrets.MONEYPAPER_TOKEN }}
+          PUBLISH_BRANCH: master
+          PUBLISH_DIR: ./public 

@@ -1,11 +1,11 @@
 {
-  "name": "MoneyPaper",
+  "name": "woorifisa",
   "private": true,
-  "description": "MoneyPaper's github blog",
+  "description": "Woorifisa's github blog",
   "version": "0.1.0",
   "author": "fancy.junyongmoon@gmail.com",
   "bugs": {
-    "url": "https://moneypapers.github.io/"
+    "url": "https://woorifisa.github.io/"
   },
   "dependencies": {
     "gatsby": "^2.2.8",

@@ -1,4 +1,532 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[MoneyPaper]]></title><description><![CDATA[Blog posted about ...]]></description><link>https://moneypapers.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 28 May 2023 12:50:07 GMT</lastBuildDate><item><title><![CDATA[Backend]]></title><description><![CDATA[backend]]></description><link>https://moneypapers.github.io/backend/test/</link><guid isPermaLink="false">https://moneypapers.github.io/backend/test/</guid><pubDate>Thu, 01 Jun 2023 12:00:00 GMT</pubDate><content:encoded>&lt;p&gt;backend&lt;/p&gt;</content:encoded></item><item><title><![CDATA[DevOps]]></title><description><![CDATA[DevOps]]></description><link>https://moneypapers.github.io/devops/test/</link><guid isPermaLink="false">https://moneypapers.github.io/devops/test/</guid><pubDate>Thu, 01 Jun 2023 12:00:00 GMT</pubDate><content:encoded>&lt;p&gt;DevOps&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Frontend]]></title><description><![CDATA[frontend]]></description><link>https://moneypapers.github.io/frontend/test/</link><guid isPermaLink="false">https://moneypapers.github.io/frontend/test/</guid><pubDate>Thu, 01 Jun 2023 12:00:00 GMT</pubDate><content:encoded>&lt;p&gt;frontend&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Quick Start]]></title><description><![CDATA[Getting Started 😎 1. Create a Gatsby site. If you are not using , following Gatsby Getting Started 2. Start developing. 3. Add your content…]]></description><link>https://moneypapers.github.io/development/quick_start/</link><guid isPermaLink="false">https://moneypapers.github.io/development/quick_start/</guid><pubDate>Sun, 05 Jul 2020 17:21:13 GMT</pubDate><content:encoded>&lt;h1 id=&quot;getting-started-&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#getting-started-&quot; aria-label=&quot;getting started  permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Getting Started 😎&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Woorifisa-Apply]]></title><description><![CDATA[Blog posted about ...]]></description><link>https://woorifisa.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 06 Jun 2023 08:06:27 GMT</lastBuildDate><item><title><![CDATA[gatsby setting procedure]]></title><description><![CDATA[이 글은 Woorifsa-Apply…]]></description><link>https://woorifisa.github.io/gatsby/gatsby-setting-procedure/</link><guid isPermaLink="false">https://woorifisa.github.io/gatsby/gatsby-setting-procedure/</guid><pubDate>Tue, 06 Jun 2023 16:07:33 GMT</pubDate><content:encoded>&lt;blockquote&gt;
+&lt;p&gt;이 글은 Woorifsa-Apply팀 &lt;a href=&quot;https://github.com/purin48&quot;&gt;푸린&lt;/a&gt;님과 &lt;a href=&quot;https://github.com/devFancy&quot;&gt;팬시&lt;/a&gt;님이 작성했습니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;팀-기술-블로그&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%ED%8C%80-%EA%B8%B0%EC%88%A0-%EB%B8%94%EB%A1%9C%EA%B7%B8&quot; aria-label=&quot;팀 기술 블로그 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;팀 기술 블로그&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;이전까지 팀 프로젝트를 진행하면서, 한번도 프로젝트에 관한 기술 블로그를 작성한 적이 없었다.&lt;/li&gt;
+&lt;li&gt;팀 프로젝트를 진행하는 경우, &lt;strong&gt;각자의 역할과 업무가 다르고 그에 맞는 기술들을 프로젝트에 적용&lt;/strong&gt;시키는 경우가 많다. 프로젝트를 진행했을 시점에는 내 업무가 아닌, 다른 사람의 업무가 궁금하다면 수시로 물어봐서 확인할 수 있다. 하지만, 프로젝트가 끝난 이후에는 요청하기가 선뜻 쉽지 않다.&lt;/li&gt;
+&lt;li&gt;팀 기술 블로그를 만든 이유는 간단하다. 팀 안에 속한 개발자들이 각자의 업무를 진행하면서 &lt;strong&gt;어려운 문제들을 직면했을 때, 어떻게 해결했는지에 대한 과정&lt;/strong&gt;들을 기술 블로그를 통해 공유하는 목적이 크다.&lt;/li&gt;
+&lt;li&gt;서로간의 문제 해결 과정을 &lt;code class=&quot;language-text&quot;&gt;공유&lt;/code&gt;하면서 &lt;code class=&quot;language-text&quot;&gt;함께 성장&lt;/code&gt;하는 취지로 팀 기술 블로그를 만들게 되었다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;gastby-기반의-블로그-테마&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#gastby-%EA%B8%B0%EB%B0%98%EC%9D%98-%EB%B8%94%EB%A1%9C%EA%B7%B8-%ED%85%8C%EB%A7%88&quot; aria-label=&quot;gastby 기반의 블로그 테마 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Gastby 기반의 블로그 테마&lt;/h2&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 1200px;&quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 24%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAFCAYAAABFA8wzAAAACXBIWXMAABYlAAAWJQFJUiTwAAAA9klEQVQY042QQUuEUBSF/WH9hrZBe0GC1tJG3ERk2OaFaFuhTMIkEiHCIAeGwd0IBi2ER/4BF9Zj8r4TvpgKZlFncw4Hzgf3alJKTBo/CM2sQ1O+QtJX95fW299ZW4fZ1TNOdm5xuJ3g+miuunpZI45jCCHUgHOuvCgK9H2/AZtcm8LQCyTHC5zu3uFg6wL+3j1W7wR2xuB5HkzThOu6MAwDjuNA13XYtg3GGMqyVDAi+gFOmt+8IHEWON9/wNNlo7qqqhAEAaIoQhiGyLIMeZ7D932kaQrLstC27TdQnTwMbyBJoFFiWXDUjxwrMf7rh13XbZz8CamxY59WEv03AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;gatsby img&quot;
+        title=&quot;gatsby img&quot;
+        src=&quot;/static/a41c8264d24e3cf62aa6d50e914a2e05/c1b63/gatsby-img.png&quot;
+        srcset=&quot;/static/a41c8264d24e3cf62aa6d50e914a2e05/5a46d/gatsby-img.png 300w,
+/static/a41c8264d24e3cf62aa6d50e914a2e05/0a47e/gatsby-img.png 600w,
+/static/a41c8264d24e3cf62aa6d50e914a2e05/c1b63/gatsby-img.png 1200w,
+/static/a41c8264d24e3cf62aa6d50e914a2e05/d61c2/gatsby-img.png 1800w,
+/static/a41c8264d24e3cf62aa6d50e914a2e05/d8d63/gatsby-img.png 2026w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;Gastby&lt;/code&gt;는 React를 기반으로 하며 최근 프론트엔드 시장에서 자주 등장하며 빠르게 성장하고 있는 &lt;strong&gt;JAM Stack&lt;/strong&gt; 기반의 &lt;strong&gt;정적 사이트 생성 프레임워크&lt;/strong&gt;이다.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&quot;gatsby를-사용하는-이유&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#gatsby%EB%A5%BC-%EC%82%AC%EC%9A%A9%ED%95%98%EB%8A%94-%EC%9D%B4%EC%9C%A0&quot; aria-label=&quot;gatsby를 사용하는 이유 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Gatsby를 사용하는 이유&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;React.js 기반의 프레임워크이다 : react를 어느 정도 다룰 줄 알면, 큰 어려움 없이 개발이 가능하다.&lt;/li&gt;
+&lt;li&gt;성능이 좋다 : JavaScript가 실행되면 빈 HTML 페이지 안에 &lt;strong&gt;마크업을 추가&lt;/strong&gt;해주는 일반적인 React SPA(Single Page Application)과는 다르게, 페이지 개발 후 Build를 하는 과정에서 마크업(.md)이 생성되기 때문에 일반 SPA 페이지보다 &lt;strong&gt;빠르게 페이지를 랜더링&lt;/strong&gt;할 수 있다.&lt;/li&gt;
+&lt;li&gt;SEO에 유리하다 : 2번에서 말했던 대로 Build 과정에서 마크업이 생성되면서 페이지 내 모든 콘텐츠가 생성이 되어서 SPA과는 다르게 SEO(검색엔진최적화)에 유리하다. 다른 프레임워크 Next.js는 정적 사이트 생성의 기능도 있지만 주로 SSR(Server Side Rendering)을 사용하는 프레임워크다. 즉, 서버와 통신을 하며 요청을 받을 때마다 동적으로 웹 사이트를 생성하기 때문에 SEO에 불리하다는 단점이 있다.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&quot;gastby-starter-bee&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#gastby-starter-bee&quot; aria-label=&quot;gastby starter bee permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;gastby-starter-bee&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;많은 Gatsby 기반의 블로그 테마()를 봐왔지만, 테마를 고르는 기준은 크게 2가지로 봤다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;ol&gt;
+&lt;li&gt;UI가 이쁘고 깔끔하면서, UX 관점에서 이동이 편리하다.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;ol start=&quot;2&quot;&gt;
+&lt;li&gt;기술 블로그에 대한 설명이 어느 정도 있어야 한다.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 1200px;&quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 66%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAABYlAAAWJQFJUiTwAAACoklEQVQ4y21RS08TURTuX3ChaETZ+RdcuXHTvYSwBwwbghEWim4MGxRJMMQHkhhWxCANC95TqGNRqYW2LAhE2gKm02k7ra19z6Mz83nPTCeUhJN8Oefce+53zneu6zSex/vxHcxOBDA38RMLEz+w9Po7OAZ+fBs7r/wIvfyGgzEe0VEfYmNbyMaSWPOuweNZgGfRg/mFeXCbXqiqCtfRgYQXQ1t489yPDyM8Zp99xdyTTXwZXsfS0Cq4xyvwP1pGcHAJkYcenI1weDc6ies3OtDe1oFb126j42o7bl5pw7Z/Gy40rSoXoJk11BtlljVwmWlNPz09jwd3J/HU/RHj96cwd28Kb+8MIuD1w6XrBhRZRTgURvDXLnjej0j4AKqiw9TNC9A1u5HXu4mkkEExX0FBKgAmcPr7hL2LsAlNEzVZwafFLfwR06jVZAjiP0jZorUThd3ZXobGPBnHcdgJBHB0dIg9NoisakgkBYRCIbhMRqiwwshhFCkpB0WRYZg6DEOH1mig0QTFqmaLXl5ZxecVHqlMFrlcCdlcGbFY1CY0DAMNXWfFKupsikq1anUkKK1gZKSEbH1jA8lUhtWynct16ywWj2N3b88mJKTTaWSzEgxG3miZrBU6u3Mkp1Ipq7kz9enZ2UXCTEZCShSQz+dQLBZRKpVQLpctT6AztWWH8fgJpIzI6v+iUqng+PgY4XD4nFBRFAsyk035ZUb7tn/Zi0KhwD6wZjWld9Fo9JyQpIiiCEEQkEgkWNe8VVxlkggUE7SmPJ/PZxHW63ULZJIkYX9/3yYkc+TR+FTkEJKnnCZ3JM/MzMDtdqOrqwudnZ3o7u62cp7n4aJC2g8ROmT0Ac4qKKYaIqaGFAeDQfT29qKvrw/9/f3o6enBwMCApfI/K1KYcLSChX0AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;gatsby bee starter&quot;
+        title=&quot;gatsby bee starter&quot;
+        src=&quot;/static/90c6e1b7082d7a835635a719ee58bc17/c1b63/gatsby-bee-starter.png&quot;
+        srcset=&quot;/static/90c6e1b7082d7a835635a719ee58bc17/5a46d/gatsby-bee-starter.png 300w,
+/static/90c6e1b7082d7a835635a719ee58bc17/0a47e/gatsby-bee-starter.png 600w,
+/static/90c6e1b7082d7a835635a719ee58bc17/c1b63/gatsby-bee-starter.png 1200w,
+/static/90c6e1b7082d7a835635a719ee58bc17/4719e/gatsby-bee-starter.png 1330w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;그래서 &lt;a href=&quot;https://github.com/JaeYeopHan&quot;&gt;JaeYeopHan&lt;/a&gt;이 만드신 &lt;a href=&quot;https://gatsby-starter-bee.netlify.app/&quot;&gt;Bee starter&lt;/a&gt;를 사용하기로 했다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;사전-작업&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%82%AC%EC%A0%84-%EC%9E%91%EC%97%85&quot; aria-label=&quot;사전 작업 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;사전 작업&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;Mac&lt;/code&gt; 기반으로 설치했기 때문에, Windows는 다를 수 있다는 점을 유의해주시면 감사하겠습니다&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;우선, npm, node가 설치 되어 있어야 하며, 각 버전은 아래와 같이 설정해줘야 한다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token function&quot;&gt;npm&lt;/span&gt; -v // &lt;span class=&quot;token number&quot;&gt;6.14&lt;/span&gt;.8
+node -v // v14.15.0&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;nvm ls&lt;/code&gt;로 현재 본인이 어느 버전에 해당하는 지 확인한다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 1200px;&quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 29.000000000000004%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAGCAYAAADDl76dAAAACXBIWXMAABYlAAAWJQFJUiTwAAABG0lEQVQY04XQy0rDUBSF4byB1DTJSZNomzT3pDa9N7230FTFgSCIIjpz4vuPf08FcWJ18LFgD9Zmb2W73VHOZl+KXp9ut+BKipOUMIrww5AojvGDANd1cRznV7ZtY1kWSnU4sFmvWJRjlvMpi9mEThqTpxFZEtKRZd0kJ8+kPCeJE2I5+xbJpcf0fR/P81Dm5ZTxqmJ6+8Zw/0Rv90hU3uENK9qDG3S54GwSolomdVVF07STdF1HSYqMYLRk8vBB//6d9PBKunkm3UrrF6zrPWpVINwLhG4gTIEQpyleFGDJf10mQ5pH6UjmiJbMVjLG7GRouYdhNxCGgSH+KTTbTaJBm4Yj0CXDMtDVGnr9XKphyDOFqv2Uyfyr8BPetKyV76cvAAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;gatsby nvm ls&quot;
+        title=&quot;gatsby nvm ls&quot;
+        src=&quot;/static/34f9d76ddf621ba8239115d9c78e7314/c1b63/gatsby-nvm-ls.png&quot;
+        srcset=&quot;/static/34f9d76ddf621ba8239115d9c78e7314/5a46d/gatsby-nvm-ls.png 300w,
+/static/34f9d76ddf621ba8239115d9c78e7314/0a47e/gatsby-nvm-ls.png 600w,
+/static/34f9d76ddf621ba8239115d9c78e7314/c1b63/gatsby-nvm-ls.png 1200w,
+/static/34f9d76ddf621ba8239115d9c78e7314/10ab7/gatsby-nvm-ls.png 1552w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;만약 node 버전이 &lt;code class=&quot;language-text&quot;&gt;14.15.0&lt;/code&gt;이 아니라면 아래와 같이 설치해서 default 해준다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;nvm uninstall &lt;span class=&quot;token number&quot;&gt;14&lt;/span&gt; // node 버전이 &lt;span class=&quot;token number&quot;&gt;14.15&lt;/span&gt;.0 이 아닌 다른 버전이 설치되어있는 경우 삭제하고 다시 설치한다.
+arch -x86_64 &lt;span class=&quot;token function&quot;&gt;zsh&lt;/span&gt;
+nvm &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;14&lt;/span&gt;
+nvm &lt;span class=&quot;token builtin class-name&quot;&gt;alias&lt;/span&gt; default &lt;span class=&quot;token number&quot;&gt;14&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2 id=&quot;install&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#install&quot; aria-label=&quot;install permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Install&lt;/h2&gt;
+&lt;h3 id=&quot;1-create-a-gatsby-site&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#1-create-a-gatsby-site&quot; aria-label=&quot;1 create a gatsby site permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;1. Create a Gatsby site&lt;/h3&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token function&quot;&gt;npm&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; -g gatsby-cli
+gatsby new woorifisa.github.io https://github.com/JaeYeopHan/gatsby-starter-bee&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;만약 설치가 안됐으면, 아래의 오류들을 마주하게 될 것이다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;ERROR1. nvm 설치 오류&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;nvm --version
+zsh: &lt;span class=&quot;token builtin class-name&quot;&gt;command&lt;/span&gt; not found: nvm&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;bash shell에서는 nvm 명령어를 제대로 인식하지만, mac의 default shell인 zsh에서는 nvm을 인식하지 못하는 문제라고 한다.&lt;/li&gt;
+&lt;li&gt;이럴 경우, &lt;code class=&quot;language-text&quot;&gt;zsh&lt;/code&gt; 파일을 열어 아래 텍스트를 추가해준다.&lt;/li&gt;
+&lt;li&gt;zsh 파일 열기&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token function&quot;&gt;vi&lt;/span&gt; .zshrc&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;환경변수 추가하기&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token assign-left variable&quot;&gt;NVM_DIR&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;&lt;span class=&quot;token environment constant&quot;&gt;$HOME&lt;/span&gt;/.nvm&quot;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; -s &lt;span class=&quot;token string&quot;&gt;&quot;&lt;span class=&quot;token variable&quot;&gt;$NVM_DIR&lt;/span&gt;/nvm.sh&quot;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;. &lt;span class=&quot;token string&quot;&gt;&quot;&lt;span class=&quot;token variable&quot;&gt;$NVM_DIR&lt;/span&gt;/nvm.sh&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;환경변수 추가한 뒤, 저장하고 나온다(&lt;code class=&quot;language-text&quot;&gt;:wq&lt;/code&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;source&lt;/span&gt; ~/.zshrc&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;만약 &lt;code class=&quot;language-text&quot;&gt;nvm --version&lt;/code&gt;을 확인해도 안나온다면, zsh 파일을 다시 열고 아래의 코드를 추가한다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token function&quot;&gt;vi&lt;/span&gt; .zshrc&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token assign-left variable&quot;&gt;NVM_DIR&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=~&lt;/span&gt;/.nvm
+&lt;span class=&quot;token builtin class-name&quot;&gt;source&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;&lt;span class=&quot;token variable&quot;&gt;$(&lt;/span&gt;brew --prefix nvm&lt;span class=&quot;token variable&quot;&gt;)&lt;/span&gt;&lt;/span&gt;/nvm.sh&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;source&lt;/span&gt; ~/.zshrc&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;그런 다음, 다시 &lt;code class=&quot;language-text&quot;&gt;nvm --version&lt;/code&gt;을 확인하면 version이 &lt;code class=&quot;language-text&quot;&gt;0.39&lt;/code&gt; 대로 나오면 된다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;nvm --version // &lt;span class=&quot;token number&quot;&gt;0.39&lt;/span&gt;.0 혹은 &lt;span class=&quot;token number&quot;&gt;0.39&lt;/span&gt;.3&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;blockquote&gt;
+&lt;p&gt;ERROR2. sharp error&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;shrap error가 발생하면 아래와 같이 나온다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token function&quot;&gt;npm&lt;/span&gt; ERR&lt;span class=&quot;token operator&quot;&gt;!&lt;/span&gt; code ELIFECYCLE
+&lt;span class=&quot;token function&quot;&gt;npm&lt;/span&gt; ERR&lt;span class=&quot;token operator&quot;&gt;!&lt;/span&gt; errno &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;npm&lt;/span&gt; ERR&lt;span class=&quot;token operator&quot;&gt;!&lt;/span&gt; sharp@0.32.1 install: &lt;span class=&quot;token variable&quot;&gt;&lt;span class=&quot;token variable&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;node install/libvips &lt;span class=&quot;token operator&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; node install/dll-copy &lt;span class=&quot;token operator&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; prebuild-install&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;||&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;node install/can-compile &lt;span class=&quot;token operator&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; node-gyp rebuild &lt;span class=&quot;token operator&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; node install/dll-copy&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token variable&quot;&gt;`&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;npm&lt;/span&gt; ERR&lt;span class=&quot;token operator&quot;&gt;!&lt;/span&gt; Exit status &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;npm&lt;/span&gt; ERR&lt;span class=&quot;token operator&quot;&gt;!&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;npm&lt;/span&gt; ERR&lt;span class=&quot;token operator&quot;&gt;!&lt;/span&gt; Failed at the sharp@0.32.1 &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; script.
+&lt;span class=&quot;token function&quot;&gt;npm&lt;/span&gt; ERR&lt;span class=&quot;token operator&quot;&gt;!&lt;/span&gt; This is probably not a problem with npm. There is likely additional logging output above.
+
+&lt;span class=&quot;token function&quot;&gt;npm&lt;/span&gt; ERR&lt;span class=&quot;token operator&quot;&gt;!&lt;/span&gt; A complete log of this run can be found in:
+&lt;span class=&quot;token function&quot;&gt;npm&lt;/span&gt; ERR&lt;span class=&quot;token operator&quot;&gt;!&lt;/span&gt;     /Users/som/.npm/_logs/2023-05-20T09_03_58_512Z-debug.log&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;이런 경우, sharp 해당 버전을 설치하면 된다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;➜  ~ &lt;span class=&quot;token function&quot;&gt;npm&lt;/span&gt; view sharp dist-tags.latest
+&lt;span class=&quot;token number&quot;&gt;0.32&lt;/span&gt;.1
+➜  ~ &lt;span class=&quot;token function&quot;&gt;npm&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; sharp@0.32.1&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;npm install&lt;/code&gt; 명령어를 입력해서 정상적으로 설치되면 아래와 같은 화면이 나오게 된다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 1200px;&quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 35.66666666666667%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAABYlAAAWJQFJUiTwAAABEUlEQVQoz32QzWqEMBSFfYIuWhw1/ps/k1TFYXQxm05H6Kp0UUqh7/8gp9fAgKWMi49zQ3LPPTfBMAyw1kII4ZFSQinllXP+j+39ttZaew2macI8z+i6DnmeoyxL1HVNVF6bpvGDVq2qyr8Jw/Auwep6SzmOI4wxflKSpESChDGwlCFNUw+jcxzHdwkUNffOoSfTlba1hIJ1JZRsoCmVrBVyluMQHRBFkW9c9Vb/MaypQdFKSmky4GQmKKWAc1Rr+icu0CqJIs+oIdpN5w0z+pOnKMaq49HgfDboJ4PT3KLrWyS05sMjJYqLTbIdw0pIlK0BP13w/PYD+/IJe/2Gff2CW0ivH1jeNS5LgSzdN1v5BYOrwkGAMmQ0AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;gatsby npm install&quot;
+        title=&quot;gatsby npm install&quot;
+        src=&quot;/static/a4191f9ff03c20cbc96b382f786caaaf/c1b63/gatsby-npm-install.png&quot;
+        srcset=&quot;/static/a4191f9ff03c20cbc96b382f786caaaf/5a46d/gatsby-npm-install.png 300w,
+/static/a4191f9ff03c20cbc96b382f786caaaf/0a47e/gatsby-npm-install.png 600w,
+/static/a4191f9ff03c20cbc96b382f786caaaf/c1b63/gatsby-npm-install.png 1200w,
+/static/a4191f9ff03c20cbc96b382f786caaaf/dd507/gatsby-npm-install.png 1528w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h4 id=&quot;예외-사항&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%98%88%EC%99%B8-%EC%82%AC%ED%95%AD&quot; aria-label=&quot;예외 사항 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;예외 사항&lt;/h4&gt;
+&lt;blockquote&gt;
+&lt;p&gt;위의 에러 사항들 외에도 문제가 발생한다면, 기존의 npm의 cahce, node_modules, package-lock.json을 삭제하고 블로그 테마 주인이신 &lt;code class=&quot;language-text&quot;&gt;JaeYeopHan&lt;/code&gt;님이 만든 &lt;a href=&quot;https://github.com/JaeYeopHan/gatsby-starter-bee&quot;&gt;gatsby-starter-bee&lt;/a&gt;의 pacakage.json 파일을 복붙한다. 그리고 다시 &lt;code class=&quot;language-text&quot;&gt;npm install&lt;/code&gt; 한다.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&quot;2-start-developing&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#2-start-developing&quot; aria-label=&quot;2 start developing permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;2. Start developing&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;해당 폴더에 이동한 다음 &lt;code class=&quot;language-text&quot;&gt;npm start&lt;/code&gt; 명령어를 입력한다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;Error: EACCES: permission denied, &lt;span class=&quot;token function&quot;&gt;open&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;/Users/som/.config/gatsby/config.json&apos;&lt;/span&gt;
+You don&apos;t have access to this file.
+
+    at Object.openSync &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;fs.js:476:3&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    at Object.readFileSync &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;fs.js:377:35&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    at Configstore.get all &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;as all&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;/Users/som/Desktop/coding/my-blog-starter/node_modules/configstore/index.js:34:25&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    at new Configstore &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;/Users/som/Desktop/coding/my-blog-starter/node_modules/configstore/index.js:27:13&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    at Object.getConfigStore &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;/Users/som/Desktop/coding/my-blog-starter/node_modules/gatsby-core-utils/dist/get-config-store.js:18:14&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    at Object.&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;anonymous&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;/Users/som/Desktop/coding/my-blog-starter/node_modules/gatsby-recipes/src/providers/npm/package.js:12:24&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    at Module._compile &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;internal/modules/cjs/loader.js:1063:30&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    at Object.Module._extensions&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;js &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;internal/modules/cjs/loader.js:1092:10&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    at Module.load &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;internal/modules/cjs/loader.js:928:32&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    at Function.Module._load &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;internal/modules/cjs/loader.js:769:14&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;빌드 과정에서 permission이 없어서 아래와 같이 발생한 문제라는 오류가 발생한다면, &lt;code class=&quot;language-text&quot;&gt;chomd&lt;/code&gt; 명령어를 통해 폴더별 권한을 변경한다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;chmod&lt;/span&gt; -R &lt;span class=&quot;token number&quot;&gt;777&lt;/span&gt; /Users/som/.config/gatsby/&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;그리고 다시 &lt;code class=&quot;language-text&quot;&gt;npm start&lt;/code&gt; 명령어를 입력해서 정상적으로 성공이 나오면, 아래와 같은 화면이 나온다.(localhost:8000)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 1200px;&quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 62.66666666666667%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAABYlAAAWJQFJUiTwAAABi0lEQVQ4y4VTWZKCQBTjEO77joAwyNps4oze/0oZ8sq2UGf0I9XQSzp5L218JSHSJEEcx1BKwfd92LYto2VZWC6X2Gw2WK/XAv7PZjOsViuZ3+12MjcYDNDv92G4eYRTWSEMQ0RRJBu73S6GwyHG4/ELRqPRw9pkMpG5O6GVBviuz1BZhqwBlS0WCznU6/UewAPPaM+T1HCyCFVRit26rkXl8Xi82yCxVqUP/QdR6KkIdXWSGlLh4XAQMtaLNaJa0zQxnU5FzTtCUWipxvKpFrKiKOB5HhzHuVvWN2t1n1QajgqlKWljOU1Tsbvf70UZi/5M9JEwKDOcG4VlWYptgjWjRar8ZPGF0Ex8qDhBlucIgkBsM1vMINV0Oh2J0TOeE6C7bfhNU6rGct4QMovJLeQEA86GsDksAy8h+M3GtbOoHRnXnwsu16tEhmTb7VaICNd1ZWSTCCagPXKN5LyQ50hs2LcFvYkKGBk2ha9mPp/LSFAV5zm2v1k7lkEs6xtZP24gwV+v5B3anf8F70pr0jFwJ9kAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;gatsby npm start&quot;
+        title=&quot;gatsby npm start&quot;
+        src=&quot;/static/6135c3a6e95f13d76959fb72ff0949b2/c1b63/gatsby-npm-start.png&quot;
+        srcset=&quot;/static/6135c3a6e95f13d76959fb72ff0949b2/5a46d/gatsby-npm-start.png 300w,
+/static/6135c3a6e95f13d76959fb72ff0949b2/0a47e/gatsby-npm-start.png 600w,
+/static/6135c3a6e95f13d76959fb72ff0949b2/c1b63/gatsby-npm-start.png 1200w,
+/static/6135c3a6e95f13d76959fb72ff0949b2/a8c87/gatsby-npm-start.png 1538w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h3 id=&quot;3-gatsby-config-수정&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#3-gatsby-config-%EC%88%98%EC%A0%95&quot; aria-label=&quot;3 gatsby config 수정 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;3. Gatsby config 수정&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;설치가 완료되었으면, 이제 config에 있는 기본 값들을 바꾸면 된다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;gatsby-meta-config.js 파일 수정&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;module&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;exports &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  title&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;Woorifisa-Apply&lt;/span&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  description&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;Blog posted about ...&lt;/span&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  author&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;woorifisa-team&lt;/span&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  introduction&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;우리 FISA 교육생 지원서 관리 플랫폼 기술 블로그입니다.&lt;/span&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  siteUrl&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;https://woorifisa.github.io/&lt;/span&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// Your blog site url&lt;/span&gt;
+  social&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    github&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;woorifisa/woorifisa.github.io/&lt;/span&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// Your GitHub account&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  icon&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;content/assets/felog.png&lt;/span&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// Add your favicon&lt;/span&gt;
+  keywords&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;blog&lt;/span&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  comment&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    disqusShortName&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// Your disqus-short-name. check disqus.com.&lt;/span&gt;
+    utterances&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;woorifisa/woorifisa.github.io/&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// Your repository for archive comment&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  configs&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    countOfInitialPost&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// Config your initial count of post&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  sponsor&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    buyMeACoffeeId&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;devFancy&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  share&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    facebookAppId&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// Add facebookAppId for using facebook share feature v3.2&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  ga&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;0&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// Add your google analytics tranking ID&lt;/span&gt;
+  ad&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// Add your google adsense publisherId `ca-pub-xxxxxxxxxx`&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;blockquote&gt;
+&lt;p&gt;package.json 수정&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;scripts 내부에 &lt;code class=&quot;language-text&quot;&gt;&quot;deploy&quot;: ~~~&lt;/code&gt; 추가한다. (참고로, github pages로 배포한다)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;json&quot;&gt;&lt;pre class=&quot;language-json&quot;&gt;&lt;code class=&quot;language-json&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;&quot;name&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;woorifisa&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;&quot;private&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;&quot;description&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;woorifisa&apos;s github blog&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;&quot;version&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;0.1.0&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;&quot;author&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;fancy.junyongmoon@gmail.com&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;&quot;bugs&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token property&quot;&gt;&quot;url&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;https://woorifisa.github.io/&quot;&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// 깃허브 블로그 주소&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;token comment&quot;&gt;// ... 중간 생략&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;&quot;scripts&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token property&quot;&gt;&quot;post&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;gatsby-post-gen&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;token property&quot;&gt;&quot;dev&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;gatsby develop&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;token property&quot;&gt;&quot;lint&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;eslint --ext .js,.jsx --ignore-pattern public .&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;token property&quot;&gt;&quot;format&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;prettier --trailing-comma es5 --no-semi --single-quote --write &apos;src/**/*.js&apos; &apos;src/**/*.md&apos;&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;token property&quot;&gt;&quot;develop&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;gatsby develop&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;token property&quot;&gt;&quot;start&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;npm run develop&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;token property&quot;&gt;&quot;build&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;gatsby build&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;token property&quot;&gt;&quot;fix-semi&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;eslint --quiet --ignore-pattern node_modules --ignore-pattern public --parser babel-eslint --no-eslintrc --rule &apos;{\&quot;semi\&quot;: [2, \&quot;never\&quot;], \&quot;no-extra-semi\&quot;: [2]}&apos; --fix gatsby-node.js&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;token property&quot;&gt;&quot;deploy&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;gatsby build &amp;amp;&amp;amp; develop -d public -b master&quot;&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;이때 소스 코드 빌드 후의 public 폴더를 github &lt;code class=&quot;language-text&quot;&gt;master&lt;/code&gt; 브랜치에 push 한다는 의미이고, 이 소스코드로 &lt;code class=&quot;language-text&quot;&gt;https://woorifisa.github.io/&lt;/code&gt;에 배포한다는 의미이다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;4-deploy-하기&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#4-deploy-%ED%95%98%EA%B8%B0&quot; aria-label=&quot;4 deploy 하기 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;4. deploy 하기&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;깃허브 repository 이름은 &lt;code class=&quot;language-text&quot;&gt;woorifisa.github.io&lt;/code&gt;으로 만들어 준다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;만약, 개인 repository가 아닌 organization에서 만든 다면, origanization 이름과 일치해서 만들어줘야 한다.&lt;/li&gt;
+&lt;li&gt;e.g. github name: devfancy -&gt; &lt;code class=&quot;language-text&quot;&gt;devfancy.github.io&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;e.g. organization name: woorifisa -&gt; &lt;code class=&quot;language-text&quot;&gt;woorifisa.github.io&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;기술 블로그가 있는 폴더의 터미널에서 git을 세팅한다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; init
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; remote &lt;span class=&quot;token function&quot;&gt;add&lt;/span&gt; origin https://github.com/woorifisa/woorifisa.github.io.git&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;git 연동을 확인한다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; remote -v&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;origin  https://github.com/hibit-team/hibit-team.github.io.git (fetch)
+origin  https://github.com/hibit-team/hibit-team.github.io.git (push)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;add, commit, push&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;add&lt;/span&gt; &lt;span class=&quot;token builtin class-name&quot;&gt;.&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; commit -m &lt;span class=&quot;token string&quot;&gt;&quot;first commit&quot;&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; push origin master
+&lt;span class=&quot;token comment&quot;&gt;# master or main 확인 꼭 할 것!&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;소스 코드가 제대로 업로드 되었다면, 배포 단계로 간다.&lt;/li&gt;
+&lt;li&gt;deploy 명령어를 입력하기 전에 &lt;code class=&quot;language-text&quot;&gt;gh-pages&lt;/code&gt; 를 설치한다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token function&quot;&gt;npm&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; -g gh-pages --save-dev&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;그리고 deploy 명령어를 입력한다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token function&quot;&gt;npm&lt;/span&gt; run deploy&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;정상적으로 성공하면, 마지막에 &lt;code class=&quot;language-text&quot;&gt;Published&lt;/code&gt; 단어가 보인다.&lt;/li&gt;
+&lt;li&gt;master 브랜치에 가보면, 아래와 같이 빌드된 파일들이 업로드 된 것을 확인할 수 있다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 1200px;&quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 86.66666666666667%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAARCAYAAADdRIy+AAAACXBIWXMAABYlAAAWJQFJUiTwAAACa0lEQVQ4y3VUSY7bMBD0//+RD+SUB+SeY4BcEgcYWxa1cJG4aHGlqyXNyMCEQFuUSVZXVTd1maYJ3g/IOSOlhBgT5nkGx/P51FjWFT4MGMeEzll8+fEV335+R4kZyzJhkf3cx3OXMs3oegcbMlpf0IWiT+skSZlRJFIuGOVwTAVhiKi6Bn1wqIzF9d6jl72SXkEv3jvcbnc86haVRG06mNaiaWWj9eh8FuAFeQdzoqbvvbLl3A8J53HxaYbpLJxzGt4HBJEXhlEsIKusDHWeZ8zLIvKDWhOGAbTsbM9lnJ7wY1bKx0jip3VeQQnu9wR+nHXX5nfW5DGld0Bl6ATrVnew1upmLhCgNo14a9EK+44hPjfiLfeQ2ThGDMqwvDKUGqDpgy4eYxhHBaM0JyycsOXTDhNIhGBjjGgkURAvD3YKGEUy/yyliPlFS0/JfF+WVT1b3mPVQ/Qvl0nObb6+MKTku+nhpSBRshJoEL9q00qVnTLd4kMy1wdhyU7wIUqfnhiG8sSj6RFF5jFYCLcbTmlbyDzNKlmLwSqPRft3VsCdISU679VolbJXkGBsiVL24Hxa9BDXeauMMTB1jVUSqmRWmYBd1+NeVXiTBm/aVlvkpb/0uf3wnUU6QOdZ9q1MtPl7meTqPR41rte/+CNRVQ+Vm/NrO5yDfqY0wjx+wfW/5U6/YWhvmGz8YFjXRgph0Lad+sVE/wOkPbThGOc1BbRSYUo1TaMF2QC3nltPm7c51F+22PmGHJdCJfNWUCqBgzQzq8jbkvc7fESUjwQH1/n+2VCGlHnIpp+sOg+s8h1cXhp7C/YlO+Kz9X+ASCkcXPiMkAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;gatsby master&quot;
+        title=&quot;gatsby master&quot;
+        src=&quot;/static/dfd3b3ebb6bab8efccfd573cf93a5e40/c1b63/gatsby-master.png&quot;
+        srcset=&quot;/static/dfd3b3ebb6bab8efccfd573cf93a5e40/5a46d/gatsby-master.png 300w,
+/static/dfd3b3ebb6bab8efccfd573cf93a5e40/0a47e/gatsby-master.png 600w,
+/static/dfd3b3ebb6bab8efccfd573cf93a5e40/c1b63/gatsby-master.png 1200w,
+/static/dfd3b3ebb6bab8efccfd573cf93a5e40/d61c2/gatsby-master.png 1800w,
+/static/dfd3b3ebb6bab8efccfd573cf93a5e40/11864/gatsby-master.png 2034w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h3 id=&quot;5-브랜치-분리develop-생성&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#5-%EB%B8%8C%EB%9E%9C%EC%B9%98-%EB%B6%84%EB%A6%ACdevelop-%EC%83%9D%EC%84%B1&quot; aria-label=&quot;5 브랜치 분리develop 생성 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;5. 브랜치 분리(develop 생성)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;배포는 develop 브랜치에서 하기 때문에 브랜치를 분리한다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; branch develop
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; checkout develop&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;develop 브랜치에 수정한 코드 git에 올린다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;add&lt;/span&gt; &lt;span class=&quot;token builtin class-name&quot;&gt;.&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; commit -m “commit message”
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; push -u origin develop&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;소스코드가 develop 브랜치에 잘 올라갔다면, github default 브랜치를 develop으로 바꿔준다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 1200px;&quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 67%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAABYlAAAWJQFJUiTwAAAB5ElEQVQ4y21TiY6rMBDr/3/kPu2+UsoRyMUZgtczUNSVGskMIuCMPebmwwCBdZEI6HoH5we9F/SWYHU+wnRWa289+t6iqWqM44xpXolF6y2OC+qmQ4gDZj4cxgnzssKYjoQOOe/Ytg1bzkclUmJNCesycz9j3/cLN9mMJNMXicyHsloSVuxgXZO+uG35vMeHdZDJuglRVTcoyyestdeG6Xp8/fsmacODMhZ27ZzXfenqhY0K8tshSui8RwjxIpPlfUDxeOhBTdsq6hNiyzjTu2lGnOjfmi/pStj1PX1JSpTyJgIwDBPKp0FZdSjKlp226I1ReCoR2N6js5Hfc5h2UCU3Iaqb5iJctpXyZpj/Pyi/f9CxwzxN2OcJeMM+jYqsdUL27uhQjL7fC43Btdi1rSiVgzHsXqYttrgQFL11moo4jMSAwDo7fk/ZKlmm/PJPr1tCywlXjJPlcCR/MqSmMehYA/1N64p8xkgilaM/CEWqvsSTY4yHdG5EQ8+KO8a6og8zQGkKkbxQ4hiRhxNyH/wrh4mxqdVHIdRYEB3NfxQFh1EhymEnAqVHJiLL8GSyiu0M9hkbicia0p/El63HV8FwG6f5lCSIzwLx9HO+zw6f7KJpWv1TXkuyJv/m5z8Dfw5/xy8t3/GskU4icQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;gatsby default branch&quot;
+        title=&quot;gatsby default branch&quot;
+        src=&quot;/static/c97e39afa88d2ad96fbe06a75c322206/c1b63/gatsby-default-branch.png&quot;
+        srcset=&quot;/static/c97e39afa88d2ad96fbe06a75c322206/5a46d/gatsby-default-branch.png 300w,
+/static/c97e39afa88d2ad96fbe06a75c322206/0a47e/gatsby-default-branch.png 600w,
+/static/c97e39afa88d2ad96fbe06a75c322206/c1b63/gatsby-default-branch.png 1200w,
+/static/c97e39afa88d2ad96fbe06a75c322206/d61c2/gatsby-default-branch.png 1800w,
+/static/c97e39afa88d2ad96fbe06a75c322206/3c2d4/gatsby-default-branch.png 2092w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;그러면 develop 브랜치에서 업로드된 파일을 확인할 수 있다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 1200px;&quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 81.33333333333333%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAQCAYAAAAWGF8bAAAACXBIWXMAABYlAAAWJQFJUiTwAAAB9klEQVQ4y4VUW5KbMBDk/ofICXKDPUB+coH87E/WqZiHHkhIQkZ0psWCcWJXVDUFSKOe7taIJqYZg9Jw3sM5hsM8zziPUgrsOGKaItRo8eX7V7z9+IZJ8nOekVKqeTlnNMa6CtgPAxSf/QCtDWZZTAJM8DjfcCuQ9wxjBDgEKbKg0w4f7QjrwlG80apH1/XQkqi1hbGjgN0ELIPst8jwIcGMDkpymJtkbpB3N6VPqBXruqJRY8C1U/AihzGFKPJ8DQLtEeIsa6k+tXE1d5QCIWzsCFYBh7Di2mv5KAdtspymx0TG/k0lQQrTqhjTMb9JDkWkTJw5No5idojxH8DzOoFqpPTI0KelSjkDMpEHwKLPAFmMQGTIwzuvNUlMb9vugbqlNy8YFko2m2TrU42zHRXw9/VaW4X9xmHFQ254JZmAbJ3qoex/YEhp2ph6CMuybJIEjPO1qZ8wZC7byjgynJGXE0NubDtKvjNyfjrMfgZIS5ivtBZlGuV297Hhxp8fF7kB9gA0/5GsxB72a9er2kJrzPebwus1DKrK3jf4E8Nnh8K2SSlCD++I/oKytEi2xaz83UMy3H2j4SGmlwzJjj+CnMXLNCEnecaAdSmb5MvlV73PpayHZPq4SMKrU94L/j2qZIKxfY5D4W9MALfmfn5Tzvnn+AOy2+HHV4jO4AAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;gatsby develop&quot;
+        title=&quot;gatsby develop&quot;
+        src=&quot;/static/4993180ca892e5b52fa8eac396e7acaa/c1b63/gatsby-develop.png&quot;
+        srcset=&quot;/static/4993180ca892e5b52fa8eac396e7acaa/5a46d/gatsby-develop.png 300w,
+/static/4993180ca892e5b52fa8eac396e7acaa/0a47e/gatsby-develop.png 600w,
+/static/4993180ca892e5b52fa8eac396e7acaa/c1b63/gatsby-develop.png 1200w,
+/static/4993180ca892e5b52fa8eac396e7acaa/d61c2/gatsby-develop.png 1800w,
+/static/4993180ca892e5b52fa8eac396e7acaa/79166/gatsby-develop.png 2012w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&quot;content---post-업로드&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#content---post-%EC%97%85%EB%A1%9C%EB%93%9C&quot; aria-label=&quot;content   post 업로드 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Content - post 업로드&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;이제 설치도 끝났고, 배포도 되었으니 원하는 post를 만들어서 업로드하는 과정을 한다.&lt;/li&gt;
+&lt;li&gt;내용은 &lt;code class=&quot;language-text&quot;&gt;content/blog&lt;/code&gt; 폴더에 가면 있다.&lt;/li&gt;
+&lt;li&gt;새로운 post를 만드는 과정은 아래와 같다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Support script for creating new post&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/34628ec574f22bee7a31c7f208a84e79/cli-tool-example.gif&quot; alt=&quot;cli-tool-example&quot;&gt;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token function&quot;&gt;npm&lt;/span&gt; run post&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;post에 내용을 입력한 다음, github에 업로드하면 된다. (&lt;strong&gt;주의&lt;/strong&gt;: 반드시 develop 브랜치에서 작업해야 함)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;add&lt;/span&gt; &lt;span class=&quot;token builtin class-name&quot;&gt;.&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; commit -m &lt;span class=&quot;token string&quot;&gt;&quot;commit message&quot;&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; push origin develop
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; run deploy&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2 id=&quot;마치며&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%A7%88%EC%B9%98%EB%A9%B0&quot; aria-label=&quot;마치며 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;마치며..&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Gatsby 기반의 기술 블로그를 세팅하는 작업을 하며 다양한 오류들을 접하게 되면서, 해결하는 과정이 힘들었지만, 뒤돌아 생각해보면 많은 것을 배우게 되었다.&lt;/li&gt;
+&lt;li&gt;Gatsby 기반 폴더 구조와 설치하는 과정을 알게 되었지만, 100% 이해는 못했다. 추후에 여유가 된다면 Gatsby에 대한 깊은 지식을 다뤄볼 예정이다.&lt;/li&gt;
+&lt;li&gt;추가적으로 배포에 대한 명령어를 수시로 입력해야 하는 상황을 &lt;strong&gt;Github Action&lt;/strong&gt;을 활용하여 &lt;strong&gt;배포 자동화&lt;/strong&gt;를 적용했는데, 해당 부분에 대한 설명은 추후에 업로드를 할 예정이다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;해당 기술 블로그 세팅 작업을 도와주신 &lt;a href=&quot;https://github.com/purin48&quot;&gt;푸린&lt;/a&gt;님께 이 자리를 빌어 감사의 말씀 전합니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;reference&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#reference&quot; aria-label=&quot;reference permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Reference&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/JaeYeopHan/gatsby-starter-bee/blob/master/README.ko.md&quot;&gt;gastby-starter-bee/README.ko.md&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://blog.nerdfactory.ai/2022/06/24/setting-gatsby-with-typescript.html&quot;&gt;Gatsby를 어떻게 적용할 수 있을까?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://velog.io/@energyy044/Reactzsh-command-not-found-nvm&quot;&gt;[React]zsh: command not found: nvm&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://stackoverflow.com/questions/54409953/cant-install-sharp&quot;&gt;Can’t install Sharp&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://velog.io/@juyoung810/npm-install-sharp-error&quot;&gt;npm install sharp error&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://superbderrick.tistory.com/308&quot;&gt;Error case permission denied, open “gatsby/config.json”&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://recipes4dev.tistory.com/175&quot;&gt;리눅스 chmod 명령어 사용법&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://ha-young.github.io/2020/gatsby/make-blog/install-gatsby-select-starter/&quot;&gt;gatsby설치, starter, meta data 설정&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[about]]></title><description><![CDATA[Woorifisa-Apply ✍🏻 Service 우리FISA 교육생분들의 모든 지원 과정을 관리하는 서비스입니다. Frontend Tech-Stack frontend-image Backend Tech-Stack backend-image Infra…]]></description><link>https://woorifisa.github.io/resume-en/</link><guid isPermaLink="false">https://woorifisa.github.io/resume-en/</guid><pubDate>Tue, 06 Jun 2023 12:12:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;woorifisa-apply&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#woorifisa-apply&quot; aria-label=&quot;woorifisa apply permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Woorifisa-Apply&lt;/h1&gt;
+&lt;h2 id=&quot;-service&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#-service&quot; aria-label=&quot; service permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;✍🏻 Service&lt;/h2&gt;
+&lt;p&gt;우리FISA 교육생분들의 모든 지원 과정을 관리하는 서비스입니다.&lt;/p&gt;
+&lt;h2 id=&quot;frontend-tech-stack&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#frontend-tech-stack&quot; aria-label=&quot;frontend tech stack permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Frontend Tech-Stack&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;https://github.com/woorifisa/apply/assets/83820185/4ba5ae1e-4d86-4b77-8d8c-3633be3015fd&quot; alt=&quot;frontend-image&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;backend-tech-stack&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#backend-tech-stack&quot; aria-label=&quot;backend tech stack permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Backend Tech-Stack&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;https://github.com/woorifisa/apply/assets/83820185/d640c409-fa21-47c3-9b9c-9a31b56322bf&quot; alt=&quot;backend-image&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;infra-tech-stack&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#infra-tech-stack&quot; aria-label=&quot;infra tech stack permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Infra Tech-Stack&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;https://github.com/woorifisa/apply/assets/83820185/4b693f14-9a82-4996-aa09-73d42ee7e6c2&quot; alt=&quot;infra-image&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;-team-member&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#-team-member&quot; aria-label=&quot; team member permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;🙌🏻 Team-Member&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;Frontend&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;Frontend&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;Frontend&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;Backend&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;Backend&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;Backend&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&quot;center&quot;&gt;&lt;img src=&quot;https://avatars.githubusercontent.com/u/70616579?v=4&quot; width=&quot;400px&quot; alt=&quot;&amp;#xC724;&amp;#xC11C;&quot;&gt;&lt;/td&gt;
+&lt;td align=&quot;center&quot;&gt;&lt;img src=&quot;https://avatars.githubusercontent.com/u/81960250?v=4&quot; width=&quot;400px&quot; alt=&quot;&amp;#xD478;&amp;#xB9B0;&quot;&gt;&lt;/td&gt;
+&lt;td align=&quot;center&quot;&gt;&lt;img src=&quot;https://avatars.githubusercontent.com/u/82077853?v=4&quot; width=&quot;400px&quot; alt=&quot;&amp;#xCCA0;&amp;#xCCA0;&quot;&gt;&lt;/td&gt;
+&lt;td align=&quot;center&quot;&gt;&lt;img src=&quot;https://avatars.githubusercontent.com/u/83820185?v=4&quot; width=&quot;400px&quot; alt=&quot;&amp;#xD32C;&amp;#xC2DC;&quot;&gt;&lt;/td&gt;
+&lt;td align=&quot;center&quot;&gt;&lt;img src=&quot;https://avatars.githubusercontent.com/u/123453133?v=4&quot; width=&quot;400px&quot; alt=&quot;&amp;#xC2B9;&amp;#xD658;&quot;&gt;&lt;/td&gt;
+&lt;td align=&quot;center&quot;&gt;&lt;img src=&quot;https://avatars.githubusercontent.com/u/81614820?v=4&quot; width=&quot;400px&quot; alt=&quot;&amp;#xB530;&amp;#xC2DC;&amp;#xAE30;&quot;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&quot;center&quot;&gt;&lt;a href=&quot;https://github.com/han0224&quot;&gt;윤서&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&quot;center&quot;&gt;&lt;a href=&quot;https://github.com/purin48&quot;&gt;푸린&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&quot;center&quot;&gt;&lt;a href=&quot;https://github.com/Cheol-Cheol&quot;&gt;철철&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&quot;center&quot;&gt;&lt;a href=&quot;https://github.com/devfancy&quot;&gt;팬시&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&quot;center&quot;&gt;&lt;a href=&quot;https://github.com/Cheon-Seunghwan&quot;&gt;승환&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&quot;center&quot;&gt;&lt;a href=&quot;https://github.com/xotlr333&quot;&gt;따시기&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;</content:encoded></item><item><title><![CDATA[Quick Start]]></title><description><![CDATA[Getting Started 😎 1. Create a Gatsby site. If you are not using , following Gatsby Getting Started 2. Start developing. 3. Add your content…]]></description><link>https://woorifisa.github.io/development/quick_start/</link><guid isPermaLink="false">https://woorifisa.github.io/development/quick_start/</guid><pubDate>Sun, 05 Jul 2020 17:21:13 GMT</pubDate><content:encoded>&lt;h1 id=&quot;getting-started-&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#getting-started-&quot; aria-label=&quot;getting started  permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Getting Started 😎&lt;/h1&gt;
 &lt;h2 id=&quot;1-create-a-gatsby-site&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#1-create-a-gatsby-site&quot; aria-label=&quot;1 create a gatsby site permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;1. Create a Gatsby site.&lt;/h2&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sh&quot;&gt;&lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;# create a new Gatsby site using the blog starter
 $ npx gatsby new my-blog-starter https://github.com/JaeYeopHan/gatsby-starter-bee&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
@@ -69,7 +597,7 @@ $ npm start
 &lt;blockquote&gt;
 &lt;p&gt;Welcome to gatsby-starter-bee!
 Happy blogging! 👻&lt;/p&gt;
-&lt;/blockquote&gt;</content:encoded></item><item><title><![CDATA[Welcome Bee starter]]></title><description><![CDATA[Welcome, Gatsby! This starter is full-package for your new blog! 1. Support Four frontmatter title date category draft 2. Code highlighting…]]></description><link>https://moneypapers.github.io/development/hello/</link><guid isPermaLink="false">https://moneypapers.github.io/development/hello/</guid><pubDate>Sat, 04 Jul 2020 12:21:13 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+&lt;/blockquote&gt;</content:encoded></item><item><title><![CDATA[Welcome Bee starter]]></title><description><![CDATA[Welcome, Gatsby! This starter is full-package for your new blog! 1. Support Four frontmatter title date category draft 2. Code highlighting…]]></description><link>https://woorifisa.github.io/development/hello/</link><guid isPermaLink="false">https://woorifisa.github.io/development/hello/</guid><pubDate>Sat, 04 Jul 2020 12:21:13 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 466px;&quot;
     &gt;
@@ -192,7 +720,4 @@ draft: false
 &lt;/ol&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Let’s Start! &lt;a href=&quot;https://github.com/JaeYeopHan/gatsby-starter-bee&quot;&gt;Go&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;</content:encoded></item><item><title><![CDATA[Second Post]]></title><description><![CDATA[Second Post]]></description><link>https://moneypapers.github.io/development/second/</link><guid isPermaLink="false">https://moneypapers.github.io/development/second/</guid><pubDate>Sun, 03 Feb 2019 16:21:13 GMT</pubDate><content:encoded>&lt;p&gt;Second Post&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Third Post]]></title><description><![CDATA[Third Post]]></description><link>https://moneypapers.github.io/development/third/</link><guid isPermaLink="false">https://moneypapers.github.io/development/third/</guid><pubDate>Fri, 01 Feb 2019 16:21:13 GMT</pubDate><content:encoded>&lt;p&gt;Third Post&lt;/p&gt;</content:encoded></item><item><title><![CDATA[about]]></title><description><![CDATA[Your name Thank you for reading my resume. If you want to contact me, Please send me an email.]]></description><link>https://moneypapers.github.io/resume-en/</link><guid isPermaLink="false">https://moneypapers.github.io/resume-en/</guid><pubDate>Sun, 27 Jan 2019 16:21:13 GMT</pubDate><content:encoded>&lt;h1 id=&quot;your-name&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#your-name&quot; aria-label=&quot;your name permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Your name&lt;/h1&gt;
-&lt;div align=&quot;center&quot;&gt;
-&lt;p&gt;&lt;em&gt;Thank you for reading my resume. If you want to contact me, Please send me an email.&lt;/em&gt;&lt;/p&gt;
-&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Draft]]></title><description><![CDATA[Draft Post]]></description><link>https://moneypapers.github.io/development/draft/</link><guid isPermaLink="false">https://moneypapers.github.io/development/draft/</guid><pubDate>Thu, 03 Jan 2019 16:21:13 GMT</pubDate><content:encoded>&lt;p&gt;Draft Post&lt;/p&gt;</content:encoded></item></channel></rss>
+&lt;/blockquote&gt;</content:encoded></item></channel></rss>

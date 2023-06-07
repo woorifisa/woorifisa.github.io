@@ -1,7 +1,7 @@
 ---
-title: gatsby setting procedure
+title: 'Gatsby 기반의 팀 기술 블로그 생성'
 date: 2023-06-06 16:06:93
-category: gatsby
+category: 'Gatsby'
 thumbnail: { thumbnailSrc }
 draft: false
 ---

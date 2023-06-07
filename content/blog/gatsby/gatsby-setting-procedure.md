@@ -27,7 +27,7 @@ draft: false
 
 2. 성능이 좋다 : JavaScript가 실행되면 빈 HTML 페이지 안에 **마크업을 추가**해주는 일반적인 React SPA(Single Page Application)과는 다르게, 페이지 개발 후 Build를 하는 과정에서 마크업(.md)이 생성되기 때문에 일반 SPA 페이지보다 **빠르게 페이지를 랜더링**할 수 있다.
 
-3. SEO에 유리하다 : 2번에서 말했던 대로 Build 과정에서 마크업이 생성되면서 페이지 내 모든 콘텐츠가 생성이 되어서 SPA과는 다르게 SEO(검색엔진최적화)에 유리하다. 다른 프레임워크 Next.js는 정적 사이트 생성의 기능도 있지만 주로 SSR(Server Side Rendering)을 사용하는 프레임워크다. 즉, 서버와 통신을 하며 요청을 받을 때마다 동적으로 웹 사이트를 생성하기 때문에 SEO에 불리하다는 단점이 있다.
+3. SEO에 유리하다 : 2번에서 말했던 대로 **Build 과정에서 마크업이 생성되면서 페이지 내 모든 콘텐츠가 생성이 되어서 SPA과는 다르게 SEO(검색엔진최적화)에 유리하다.** 다른 프레임워크 Next.js는 정적 사이트 생성의 기능도 있지만 주로 SSR(Server Side Rendering)을 사용하는 프레임워크다. 즉, 서버와 통신을 하며 요청을 받을 때마다 동적으로 웹 사이트를 생성하기 때문에 SEO에 불리하다는 단점이 있다.
 
 ### gastby-starter-bee
 
@@ -163,6 +163,10 @@ npm ERR!     /Users/som/.npm/_logs/2023-05-20T09_03_58_512Z-debug.log
 
 - 해당 폴더에 이동한 다음 `npm start` 명령어를 입력한다.
 
+> ERROR 1. permission
+
+- 빌드 과정에서 permission이 없어서 아래와 같이 오류가 발생한다.
+
 ```shell
 Error: EACCES: permission denied, open '/Users/som/.config/gatsby/config.json'
 You don't have access to this file.
@@ -179,10 +183,20 @@ You don't have access to this file.
     at Function.Module._load (internal/modules/cjs/loader.js:769:14)
 ```
 
-- 빌드 과정에서 permission이 없어서 아래와 같이 발생한 문제라는 오류가 발생한다면, `chomd` 명령어를 통해 폴더별 권한을 변경한다.
+- 이런 오류가 발생한다면, `chmod` 명령어를 통해 폴더별 권한을 변경한다.
 
 ```shell
 sudo chmod -R 777 /Users/som/.config/gatsby/
+```
+
+> ERROR 2. Cannot find module 'react-dev-utils/getPublicUrlOrPath'
+
+해결 방법
+
+```shell
+npm install --save-dev react-dev-utils
+// or
+npm install react-dev-utils --save
 ```
 
 - 그리고 다시 `npm start` 명령어를 입력해서 정상적으로 성공이 나오면, 아래와 같은 화면이 나온다.(localhost:8000)
@@ -278,8 +292,8 @@ git remote -v
 ```
 
 ```
-origin  https://github.com/hibit-team/hibit-team.github.io.git (fetch)
-origin  https://github.com/hibit-team/hibit-team.github.io.git (push)
+origin  https://github.com/woorifisa/woorifisa.github.io.git (fetch)
+origin  https://github.com/woorifisa/woorifisa.github.io.git (push)
 ```
 
 - add, commit, push
@@ -361,15 +375,13 @@ git push origin develop
 git run deploy
 ```
 
-## 마치며..
+## Review
 
 - Gatsby 기반의 기술 블로그를 세팅하는 작업을 하며 다양한 오류들을 접하게 되면서, 해결하는 과정이 힘들었지만, 뒤돌아 생각해보면 많은 것을 배우게 되었다.
 
 - Gatsby 기반 폴더 구조와 설치하는 과정을 알게 되었지만, 100% 이해는 못했다. 추후에 여유가 된다면 Gatsby에 대한 깊은 지식을 다뤄볼 예정이다.
 
 - 추가적으로 배포에 대한 명령어를 수시로 입력해야 하는 상황을 **Github Action**을 활용하여 **배포 자동화**를 적용했는데, 해당 부분에 대한 설명은 추후에 업로드를 할 예정이다.
-
-> 해당 기술 블로그 세팅 작업을 도와주신 [푸린](https://github.com/purin48)님께 이 자리를 빌어 감사의 말씀 전합니다.
 
 ## Reference
 

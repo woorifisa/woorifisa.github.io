@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Woorifisa-Apply]]></title><description><![CDATA[Blog posted about ...]]></description><link>https://woorifisa.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 06 Jun 2023 08:06:27 GMT</lastBuildDate><item><title><![CDATA[gatsby setting procedure]]></title><description><![CDATA[이 글은 Woorifsa-Apply…]]></description><link>https://woorifisa.github.io/gatsby/gatsby-setting-procedure/</link><guid isPermaLink="false">https://woorifisa.github.io/gatsby/gatsby-setting-procedure/</guid><pubDate>Tue, 06 Jun 2023 16:07:33 GMT</pubDate><content:encoded>&lt;blockquote&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Woorifisa-Apply]]></title><description><![CDATA[Blog posted about ...]]></description><link>https://woorifisa.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 07 Jun 2023 00:51:14 GMT</lastBuildDate><item><title><![CDATA[gatsby setting procedure]]></title><description><![CDATA[이 글은 Woorifsa-Apply…]]></description><link>https://woorifisa.github.io/gatsby/gatsby-setting-procedure/</link><guid isPermaLink="false">https://woorifisa.github.io/gatsby/gatsby-setting-procedure/</guid><pubDate>Tue, 06 Jun 2023 16:07:33 GMT</pubDate><content:encoded>&lt;blockquote&gt;
 &lt;p&gt;이 글은 Woorifsa-Apply팀 &lt;a href=&quot;https://github.com/purin48&quot;&gt;푸린&lt;/a&gt;님과 &lt;a href=&quot;https://github.com/devFancy&quot;&gt;팬시&lt;/a&gt;님이 작성했습니다.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h2 id=&quot;팀-기술-블로그&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%ED%8C%80-%EA%B8%B0%EC%88%A0-%EB%B8%94%EB%A1%9C%EA%B7%B8&quot; aria-label=&quot;팀 기술 블로그 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;팀 기술 블로그&lt;/h2&gt;
@@ -39,7 +39,7 @@
 &lt;ol&gt;
 &lt;li&gt;React.js 기반의 프레임워크이다 : react를 어느 정도 다룰 줄 알면, 큰 어려움 없이 개발이 가능하다.&lt;/li&gt;
 &lt;li&gt;성능이 좋다 : JavaScript가 실행되면 빈 HTML 페이지 안에 &lt;strong&gt;마크업을 추가&lt;/strong&gt;해주는 일반적인 React SPA(Single Page Application)과는 다르게, 페이지 개발 후 Build를 하는 과정에서 마크업(.md)이 생성되기 때문에 일반 SPA 페이지보다 &lt;strong&gt;빠르게 페이지를 랜더링&lt;/strong&gt;할 수 있다.&lt;/li&gt;
-&lt;li&gt;SEO에 유리하다 : 2번에서 말했던 대로 Build 과정에서 마크업이 생성되면서 페이지 내 모든 콘텐츠가 생성이 되어서 SPA과는 다르게 SEO(검색엔진최적화)에 유리하다. 다른 프레임워크 Next.js는 정적 사이트 생성의 기능도 있지만 주로 SSR(Server Side Rendering)을 사용하는 프레임워크다. 즉, 서버와 통신을 하며 요청을 받을 때마다 동적으로 웹 사이트를 생성하기 때문에 SEO에 불리하다는 단점이 있다.&lt;/li&gt;
+&lt;li&gt;SEO에 유리하다 : 2번에서 말했던 대로 &lt;strong&gt;Build 과정에서 마크업이 생성되면서 페이지 내 모든 콘텐츠가 생성이 되어서 SPA과는 다르게 SEO(검색엔진최적화)에 유리하다.&lt;/strong&gt; 다른 프레임워크 Next.js는 정적 사이트 생성의 기능도 있지만 주로 SSR(Server Side Rendering)을 사용하는 프레임워크다. 즉, 서버와 통신을 하며 요청을 받을 때마다 동적으로 웹 사이트를 생성하기 때문에 SEO에 불리하다는 단점이 있다.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h3 id=&quot;gastby-starter-bee&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#gastby-starter-bee&quot; aria-label=&quot;gastby starter bee permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;gastby-starter-bee&lt;/h3&gt;
 &lt;ul&gt;
@@ -194,17 +194,17 @@ zsh: &lt;span class=&quot;token builtin class-name&quot;&gt;command&lt;/span&gt;
     &gt;
       &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 35.66666666666667%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAABYlAAAWJQFJUiTwAAABEUlEQVQoz32QzWqEMBSFfYIuWhw1/ps/k1TFYXQxm05H6Kp0UUqh7/8gp9fAgKWMi49zQ3LPPTfBMAyw1kII4ZFSQinllXP+j+39ttZaew2macI8z+i6DnmeoyxL1HVNVF6bpvGDVq2qyr8Jw/Auwep6SzmOI4wxflKSpESChDGwlCFNUw+jcxzHdwkUNffOoSfTlba1hIJ1JZRsoCmVrBVyluMQHRBFkW9c9Vb/MaypQdFKSmky4GQmKKWAc1Rr+icu0CqJIs+oIdpN5w0z+pOnKMaq49HgfDboJ4PT3KLrWyS05sMjJYqLTbIdw0pIlK0BP13w/PYD+/IJe/2Gff2CW0ivH1jeNS5LgSzdN1v5BYOrwkGAMmQ0AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 47%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAABYlAAAWJQFJUiTwAAABj0lEQVQoz22Sy3KkMAxF+YYEsLF5+IF5Nd2GhEVmNl3Vi/7/P7qRnGqymFnckpDl4ysV2e12w7IsuF6vuFwuWNc15cdxIMaIbdswzzNCCEl93ycNw3DWxnFMPdZaZM/nE/f7HY/HI13mwxeYmzg659B1HYwxSa+8bdvzW2sNpRSyfd8RySU7ZRC//NI0TeSgJ6A93XGdH2UxjOsMLIoCQghk/HrcYhqPm/Z9S7n3Po1QlgJvbzny/Efv+XuKRVnQWXlKSpmUTTTW4nus80Ij7+RyJfCURh3HmWoBx6fDvEy4hRFXdt+T84acNV1yxaCfSA55D0NwdNkjDI7G68gZ1QZPI1py2tIuPXzg3GAe+tSjVUWA6gQyLAG1LmmhBe2jhqkFTCvhOG8qWKPR24Z2pNBWOTrqrToBVZdUE6iUIOAvLAFrglgr8efLYlsahPgJ83GgJXF0X38R9gNzpHyJKGgluR9R1xW5/A+waQQYqlQBpQlO40inIX0NaRSEJXfkcpgCWtNAVdwr6Zfh+C/wGxE7+ydY+ugBAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;gatsby npm install&quot;
         title=&quot;gatsby npm install&quot;
-        src=&quot;/static/a4191f9ff03c20cbc96b382f786caaaf/c1b63/gatsby-npm-install.png&quot;
-        srcset=&quot;/static/a4191f9ff03c20cbc96b382f786caaaf/5a46d/gatsby-npm-install.png 300w,
-/static/a4191f9ff03c20cbc96b382f786caaaf/0a47e/gatsby-npm-install.png 600w,
-/static/a4191f9ff03c20cbc96b382f786caaaf/c1b63/gatsby-npm-install.png 1200w,
-/static/a4191f9ff03c20cbc96b382f786caaaf/dd507/gatsby-npm-install.png 1528w&quot;
+        src=&quot;/static/7eafb62ff072bd087a3bfcca27cc9f28/c1b63/gatsby-npm-install.png&quot;
+        srcset=&quot;/static/7eafb62ff072bd087a3bfcca27cc9f28/5a46d/gatsby-npm-install.png 300w,
+/static/7eafb62ff072bd087a3bfcca27cc9f28/0a47e/gatsby-npm-install.png 600w,
+/static/7eafb62ff072bd087a3bfcca27cc9f28/c1b63/gatsby-npm-install.png 1200w,
+/static/7eafb62ff072bd087a3bfcca27cc9f28/11a8f/gatsby-npm-install.png 1272w&quot;
         sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -217,6 +217,12 @@ zsh: &lt;span class=&quot;token builtin class-name&quot;&gt;command&lt;/span&gt;
 &lt;h3 id=&quot;2-start-developing&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#2-start-developing&quot; aria-label=&quot;2 start developing permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;2. Start developing&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;해당 폴더에 이동한 다음 &lt;code class=&quot;language-text&quot;&gt;npm start&lt;/code&gt; 명령어를 입력한다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;ERROR 1. permission&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;빌드 과정에서 permission이 없어서 아래와 같이 오류가 발생한다.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;Error: EACCES: permission denied, &lt;span class=&quot;token function&quot;&gt;open&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;/Users/som/.config/gatsby/config.json&apos;&lt;/span&gt;
 You don&apos;t have access to this file.
@@ -232,9 +238,16 @@ You don&apos;t have access to this file.
     at Module.load &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;internal/modules/cjs/loader.js:928:32&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
     at Function.Module._load &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;internal/modules/cjs/loader.js:769:14&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;ul&gt;
-&lt;li&gt;빌드 과정에서 permission이 없어서 아래와 같이 발생한 문제라는 오류가 발생한다면, &lt;code class=&quot;language-text&quot;&gt;chomd&lt;/code&gt; 명령어를 통해 폴더별 권한을 변경한다.&lt;/li&gt;
+&lt;li&gt;이런 오류가 발생한다면, &lt;code class=&quot;language-text&quot;&gt;chmod&lt;/code&gt; 명령어를 통해 폴더별 권한을 변경한다.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;chmod&lt;/span&gt; -R &lt;span class=&quot;token number&quot;&gt;777&lt;/span&gt; /Users/som/.config/gatsby/&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;blockquote&gt;
+&lt;p&gt;ERROR 2. Cannot find module ‘react-dev-utils/getPublicUrlOrPath’&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;해결 방법&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token function&quot;&gt;npm&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; --save-dev react-dev-utils
+// or
+&lt;span class=&quot;token function&quot;&gt;npm&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; react-dev-utils --save&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;ul&gt;
 &lt;li&gt;그리고 다시 &lt;code class=&quot;language-text&quot;&gt;npm start&lt;/code&gt; 명령어를 입력해서 정상적으로 성공이 나오면, 아래와 같은 화면이 나온다.(localhost:8000)&lt;/li&gt;
 &lt;/ul&gt;
@@ -244,17 +257,17 @@ You don&apos;t have access to this file.
     &gt;
       &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 62.66666666666667%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAABYlAAAWJQFJUiTwAAABi0lEQVQ4y4VTWZKCQBTjEO77joAwyNps4oze/0oZ8sq2UGf0I9XQSzp5L218JSHSJEEcx1BKwfd92LYto2VZWC6X2Gw2WK/XAv7PZjOsViuZ3+12MjcYDNDv92G4eYRTWSEMQ0RRJBu73S6GwyHG4/ELRqPRw9pkMpG5O6GVBviuz1BZhqwBlS0WCznU6/UewAPPaM+T1HCyCFVRit26rkXl8Xi82yCxVqUP/QdR6KkIdXWSGlLh4XAQMtaLNaJa0zQxnU5FzTtCUWipxvKpFrKiKOB5HhzHuVvWN2t1n1QajgqlKWljOU1Tsbvf70UZi/5M9JEwKDOcG4VlWYptgjWjRar8ZPGF0Ex8qDhBlucIgkBsM1vMINV0Oh2J0TOeE6C7bfhNU6rGct4QMovJLeQEA86GsDksAy8h+M3GtbOoHRnXnwsu16tEhmTb7VaICNd1ZWSTCCagPXKN5LyQ50hs2LcFvYkKGBk2ha9mPp/LSFAV5zm2v1k7lkEs6xtZP24gwV+v5B3anf8F70pr0jFwJ9kAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 96.66666666666666%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAATCAYAAACQjC21AAAACXBIWXMAABYlAAAWJQFJUiTwAAACcUlEQVQ4y4WU6XLiQAyE/QwBjLkSfOD74DaYo6CK938l7Xzymk1tSPKjawQz0yO1WrbsaC5OGcp6vVaUZSm73U5Wq5X4vi9xHIvrupKmqUwmExkOh+I4zrew+uVCevtETqeTXK9X2e/3cjwelRyyfr8vtm3rCgaDgeJVzGOWn08l3edS1wclAtvtVgnP57NEUSRJkkie55JlmcY8RLxYLDRz9ohHo5FYq7KQ0+GgGRZFoYc5xBqGoRLwmz3k4DJrVZVKSswZHn5/fxdrmkfiHZZyuVy0ZIjrupb7/W5I8ifRbDaT+XwuHx8fqqnnec91PB5r2VpyvwykX6dybI5yu92epIAMaAwZoBFavsLnRll25stwG2szHo+H6tY0jWZGeZTd6/V+7W67bzK0E0/sVSQHoyN2gWyz2TxBWdPpVPX5d9HRy69gDXJfnDqT+lArIVpCSsbEkFJ218VfCSnZ2aVKgG7NqVHLQLpcLlU/mhEEgYoP4U+wpnNfgrC1CpdoBGWSFURvb29fhP9xUoJkJHEVGmsstRGdtwDlts3J1Gfs8SgeBZ2h2eO3GtstJhIaDZum9R8kNIiJQVPQWQgJOnNDggOorKtGS3YXgXiheSVuR6y7RMwFLmJeXsfcAC3/92EnieW5nqRJqi8B5pgMIODrwmRA8Fkn9vgPED+9SJd1EgxRaWYafTqtWLvs0Ilz7AMy5z90I+PPVrLIYGEOcYCDnVWIueCYksYjx2TTevC7sXtOCtngu6qqdKUJG1N2ZXRMi1K8ynwX1zsJ88IQQ/r92Cmh485kErVf5uzvZ6vrYmwynRmNg8hkOhp/yeYV/gAgBhsk7s1X7QAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;gatsby npm start&quot;
         title=&quot;gatsby npm start&quot;
-        src=&quot;/static/6135c3a6e95f13d76959fb72ff0949b2/c1b63/gatsby-npm-start.png&quot;
-        srcset=&quot;/static/6135c3a6e95f13d76959fb72ff0949b2/5a46d/gatsby-npm-start.png 300w,
-/static/6135c3a6e95f13d76959fb72ff0949b2/0a47e/gatsby-npm-start.png 600w,
-/static/6135c3a6e95f13d76959fb72ff0949b2/c1b63/gatsby-npm-start.png 1200w,
-/static/6135c3a6e95f13d76959fb72ff0949b2/a8c87/gatsby-npm-start.png 1538w&quot;
+        src=&quot;/static/236d02ad8e133c76a829977b9f18a1ec/c1b63/gatsby-npm-start.png&quot;
+        srcset=&quot;/static/236d02ad8e133c76a829977b9f18a1ec/5a46d/gatsby-npm-start.png 300w,
+/static/236d02ad8e133c76a829977b9f18a1ec/0a47e/gatsby-npm-start.png 600w,
+/static/236d02ad8e133c76a829977b9f18a1ec/c1b63/gatsby-npm-start.png 1200w,
+/static/236d02ad8e133c76a829977b9f18a1ec/7960f/gatsby-npm-start.png 1274w&quot;
         sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -343,8 +356,8 @@ You don&apos;t have access to this file.
 &lt;li&gt;git 연동을 확인한다.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; remote -v&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;origin  https://github.com/hibit-team/hibit-team.github.io.git (fetch)
-origin  https://github.com/hibit-team/hibit-team.github.io.git (push)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;origin  https://github.com/woorifisa/woorifisa.github.io.git (fetch)
+origin  https://github.com/woorifisa/woorifisa.github.io.git (push)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;ul&gt;
 &lt;li&gt;add, commit, push&lt;/li&gt;
 &lt;/ul&gt;
@@ -468,15 +481,12 @@ origin  https://github.com/hibit-team/hibit-team.github.io.git (push)&lt;/code&g
 &lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; commit -m &lt;span class=&quot;token string&quot;&gt;&quot;commit message&quot;&lt;/span&gt;
 &lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; push origin develop
 &lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; run deploy&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h2 id=&quot;마치며&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%A7%88%EC%B9%98%EB%A9%B0&quot; aria-label=&quot;마치며 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;마치며..&lt;/h2&gt;
+&lt;h2 id=&quot;review&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#review&quot; aria-label=&quot;review permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Review&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Gatsby 기반의 기술 블로그를 세팅하는 작업을 하며 다양한 오류들을 접하게 되면서, 해결하는 과정이 힘들었지만, 뒤돌아 생각해보면 많은 것을 배우게 되었다.&lt;/li&gt;
 &lt;li&gt;Gatsby 기반 폴더 구조와 설치하는 과정을 알게 되었지만, 100% 이해는 못했다. 추후에 여유가 된다면 Gatsby에 대한 깊은 지식을 다뤄볼 예정이다.&lt;/li&gt;
 &lt;li&gt;추가적으로 배포에 대한 명령어를 수시로 입력해야 하는 상황을 &lt;strong&gt;Github Action&lt;/strong&gt;을 활용하여 &lt;strong&gt;배포 자동화&lt;/strong&gt;를 적용했는데, 해당 부분에 대한 설명은 추후에 업로드를 할 예정이다.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;blockquote&gt;
-&lt;p&gt;해당 기술 블로그 세팅 작업을 도와주신 &lt;a href=&quot;https://github.com/purin48&quot;&gt;푸린&lt;/a&gt;님께 이 자리를 빌어 감사의 말씀 전합니다.&lt;/p&gt;
-&lt;/blockquote&gt;
 &lt;h2 id=&quot;reference&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#reference&quot; aria-label=&quot;reference permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Reference&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://github.com/JaeYeopHan/gatsby-starter-bee/blob/master/README.ko.md&quot;&gt;gastby-starter-bee/README.ko.md&lt;/a&gt;&lt;/li&gt;
